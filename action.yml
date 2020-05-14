@@ -1,0 +1,11 @@
+name: 'Arcanist Lint'
+description: 'Arcanist lint checker'
+author: 'Sharon (Sean) Rolel'
+inputs:
+  arc_path:
+    description: 'Path to arc'
+    required: false
+    default: 'arc'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
