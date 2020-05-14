@@ -6,6 +6,10 @@ inputs:
     description: 'Path to arc'
     required: false
     default: 'arc'
+  arguments:
+    description: 'Extra arguments (file paths etc.)'
+    required: false
+    default: ''
 runs:
   using: 'docker'
   image: 'Dockerfile'
